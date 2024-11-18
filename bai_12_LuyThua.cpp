@@ -5,9 +5,12 @@
 using namespace std;
 int main() {
 	cout << "Luy Thua\n";
-	int so, luythua = 1, b=4;
+	int so, mu, luythua = 1;
+	cout << "nhap so:\n";
 	cin >> so;
-	for (int a = 1; a < b; a++)
+	cout << "nhap mu:\n";
+	cin >> mu;
+	for (int a = 1; a < mu; a++)
 	{
 		luythua *= so;
 	}
